@@ -1,0 +1,2 @@
+Añadir imagen de perfil al usuario.
+Crear página de edición de datos del usuario.
