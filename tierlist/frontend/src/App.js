@@ -10,6 +10,8 @@ import {
 
 import Principal from './pages/principal.js'
 import Categoria from './pages/categorias/categoria.js'
+import Login from './pages/login.js'
+import Register from './pages/register.js'
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
         <Route path="/" element={<Navigate to="/principal"/>}/>
         <Route path="/principal" element={<Principal/>}/>
         <Route path="/categorias/:categoria" element={<Categoria/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/register" element={<Register/>}/>
       </Routes>
     </div>
     </Router>
