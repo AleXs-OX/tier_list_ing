@@ -1,0 +1,24 @@
+
+.NoteFormInput button{
+    margin-top: 4px;
+    margin-left: 4px;
+    position: relative;
+    padding: 10px;
+    color: #fff;
+    background: #aedaff;
+    border: none;
+    float: left;
+    border-radius: 25px;
+    height: 44px;
+    
+}
+.NoteFormInput input[type="text"]{
+    padding: 15px;
+    margin-top: 4px;
+    float: left;
+    color: #fff;
+    position: relative;
+    background-color: #aedaff;
+    border: none;
+    border-radius: 25px;
+}
